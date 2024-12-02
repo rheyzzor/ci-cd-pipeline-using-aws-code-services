@@ -1,23 +1,12 @@
-# Build a Web App using AWS Cloud9
+# AWS Cloud9 Setup Project
 
-## Overview
-This project demonstrates how to use AWS Cloud9, a cloud-based IDE, to create a simple Java web application. The app was customized by editing the `index.jsp` file to display dynamic content.
+This project provides a step-by-step guide for setting up an AWS Cloud9 environment, configuring IAM users, installing Maven and Java, and creating a sample web application.
 
-## Steps
-1. **Set up an IAM User**  
-   Created an IAM user with `AdministratorAccess` for full access to AWS resources.
+## Prerequisites
+- An AWS account
+- Cloud9 IDE
+- Java 8 (Amazon Corretto 8)
+- Apache Maven
 
-2. **Launch AWS Cloud9 IDE**  
-   - Used Cloud9 to write, debug, and deploy the app without local setup.
-
-3. **Install Maven and Java**  
-   - Installed Maven to manage project dependencies and Java (Amazon Corretto 8) for application development.
-
-4. **Create the Web App**  
-   Ran the following command:
-   ```bash
-   mvn archetype:generate \
-   -DgroupId=com.nextwork.app \
-   -DartifactId=nextwork-web-project \
-   -DarchetypeArtifactId=maven-archetype-webapp \
-   -DinteractiveMode=false
+## Setup Guide
+Follow the steps in the `setup-guide.md` to complete the environment setup and create a simple Java web application.
