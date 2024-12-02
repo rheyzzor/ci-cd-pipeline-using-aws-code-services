@@ -9,4 +9,4 @@ This project provides a step-by-step guide for setting up an AWS Cloud9 environm
 - Apache Maven
 
 ## Setup Guide
-Follow the steps in the `setup-guide.md` to complete the environment setup and create a simple Java web application.
+Follow the steps in the `setup-guide.md`(01-build-web-app-using-aws-cloud9/setup-guide.md) to complete the environment setup and create a simple Java web application.
